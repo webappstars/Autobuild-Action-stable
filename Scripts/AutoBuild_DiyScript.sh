@@ -52,7 +52,7 @@ Firmware_Diy() {
 	# ${BASE_FILES}			OpenWrt 源码目录下的 package/base-files/files 目录
 
 	case "${OP_AUTHOR}/${OP_REPO}:${OP_BRANCH}" in
-	webappstars/catwrt:master)
+	webappstars/catwrt:save-luci1)
 		#cat >> ${Version_File} <<EOF
 #sed -i '/check_signature/d' /etc/opkg.conf
 #if [ -z "\$(grep "REDIRECT --to-ports 53" /etc/firewall.user 2> /dev/null)" ]
